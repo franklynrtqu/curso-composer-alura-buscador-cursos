@@ -24,6 +24,7 @@ class Buscador
 
     public function buscar(string $url): array
     {
+        //Teste
         $resposta = $this->httpClient->request('GET', $url);
 
         $html = $resposta->getBody();
