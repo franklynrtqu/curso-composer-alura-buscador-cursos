@@ -52,6 +52,7 @@ class TestBuscadorDeCursos extends TestCase
 
     public function testBuscadorDeveRetornarCursos()
     {
+        // Teste
         $crawler = new Crawler();
         $buscador = new Buscador($this->httpClientMock, $crawler);
         $cursos = $buscador->buscar($this->url);
