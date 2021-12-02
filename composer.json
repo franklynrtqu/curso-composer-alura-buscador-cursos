@@ -13,6 +13,7 @@
         "symfony/dom-crawler": "^4.4",
         "symfony/css-selector": "^5.4"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Alura\\BuscadorDeCursos\\": "src/"
